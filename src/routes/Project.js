@@ -1,12 +1,18 @@
-import React from 'react';
-import Navbar from '../components/Navbar';
+import React from "react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import Heroimg2 from "../components/Heroimg2";
+import Work from "../components/Work";
 
 const Project = () => {
   return (
-    <div>Project
-      <Navbar/>
+    <div>
+      <Navbar />
+      <Heroimg2 heading="PROJECTS" text="Some of recent works" />
+      <Work />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
 export default Project;
